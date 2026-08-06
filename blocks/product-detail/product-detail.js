@@ -166,9 +166,11 @@ function buildRecommendationCard(item, isAuthor, recommendedPath) {
         }
       }
 
+      const normalizedBase = basePath.replace(/\/$/, "");
+      const normalizedRecommended = recommendedPath.replace(/^\//, "").replace(/\/$/, "");
       const productPath = isAuthor
-        ? `${basePath}/${recommendedPath}.html`
-        : `${basePath}/${recommendedPath}`;
+        ? `${normalizedBase}/${normalizedRecommended}.html`
+        : `${normalizedBase}/${normalizedRecommended}`;
       window.location.href = `${productPath}?productId=${encodeURIComponent(
         productId
       )}`;
