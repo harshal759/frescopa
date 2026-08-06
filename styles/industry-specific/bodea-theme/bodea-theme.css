@@ -1497,7 +1497,6 @@ body.bodea-theme main .section.bodea-newsletter.section-has-bg .get-offer-button
     width: fit-content;
   }
 }
-
 body.bodea-theme main .section.bodea-webinar {
   display: grid;
   grid-template-columns: auto 280px;

@@ -65,7 +65,10 @@
       "build-your-own",
       "bodea-secure-antivirus",
       "rss-list",
-      "rss-details"
+      "rss-details",
+      "insurance-plan-selection",
+      "medicare-plan-selection",
+      "plan-application"
     ]
   },
   {
@@ -142,5 +145,17 @@
       "wizard",
       "range"
     ]
+  },
+  {
+    "id": "insurance-plan-selection",
+    "components": []
+  },
+  {
+    "id": "medicare-plan-selection",
+    "components": []
+  },
+  {
+    "id": "plan-application",
+    "components": []
   }
 ]

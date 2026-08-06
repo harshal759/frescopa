@@ -1,22 +1,15 @@
 {
   "mappings": [
-    "/content/public-bodea/language-masters/en:/",
-    "/content/public-bodea/language-masters/en/:/en/",
-    "/content/public-bodea/language-masters/fr/:/fr/",
-    "/content/public-bodea/language-masters/fr:/fr",
-    "/content/public-bodea/language-masters/es/:/es/",
-    "/content/public-bodea/language-masters/es:/es",
-    "/content/public-bodea/language-masters/ja/:/ja/",
-    "/content/public-bodea/language-masters/ja:/ja",
-    "/content/public-bodea/language-masters/de/:/de/",
-    "/content/public-bodea/language-masters/de:/de",
-    "/content/public-bodea/configuration:/.helix/config.json",
-    "/content/public-bodea/metadata:/metadata.json",
-    "/content/public-bodea/redirects:/redirects.json",
-    "/content/public-bodea/placeholders:/placeholders.json"
+    "/content/we-healthcare/language-masters/en:/",
+    "/content/we-healthcare/language-masters/en/:/en/",
+    "/content/we-healthcare/configuration:/.helix/config.json",
+    "/content/we-healthcare/metadata:/metadata.json",
+    "/content/we-healthcare/redirects:/redirects.json",
+    "/content/we-healthcare/graphql:/graphql.json",
+    "/content/we-healthcare/placeholders:/placeholders.json"
   ],
   "includes": [
-    "/content/public-bodea/",
-    "/content/dam/public-bodea/"
+    "/content/we-healthcare/",
+    "/content/dam/we-healthcare/"
   ]
 }
