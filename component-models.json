@@ -92,6 +92,10 @@
             "value": "halliby-theme"
           },
           {
+            "name": "Bodea Theme",
+            "value": "bodea-theme"
+          },
+          {
             "name": "Expnews Theme",
             "value": "expnews-theme"
           }
@@ -1305,6 +1309,13 @@
       },
       {
         "component": "text",
+        "name": "toast-message",
+        "label": "Success Toast Message",
+        "value": "",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
         "name": "custom-class",
         "label": "Custom class",
         "value": "",
@@ -2310,6 +2321,10 @@
             "name": "Binji",
             "value": "binji"
           },
+          {
+            "name": "Bodea",
+            "value": "bodea"
+          },
           { 
             "name": "Exp News", 
             "value": "expnews"
@@ -2386,6 +2401,13 @@
         "name": "redirectUrl",
         "label": "Redirect URL",
         "description": "Page to redirect to after successful account creation. Leave empty for no redirect."
+      },
+      {
+        "component": "text",
+        "name": "createaccountbuttontext",
+        "label": "Button Text",
+        "value": "Submit",
+        "valueType": "string"
       },
       {
         "component": "text",
