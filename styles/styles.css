@@ -433,10 +433,16 @@ footer .footer[data-block-status="loaded"] {
   visibility: visible;
 }
 
-/* Generic FOUC guard: hide section contents until the section has finished loading. */
-main .section[data-section-status="initialized"] > *,
-main .section[data-section-status="loading"] > * {
-  visibility: hidden;
+/* Collapse section default content while loading so it neither flashes nor creates blank scroll. */
+main .section[data-section-status="initialized"] > .default-content-wrapper,
+main .section[data-section-status="loading"] > .default-content-wrapper {
+  max-height: 0;
+  overflow: hidden;
+}
+
+main .section[data-section-status="loaded"] > .default-content-wrapper {
+  max-height: 100%;
+  overflow: visible;
 }
 
 /* Prevent loan-calculator FOUC: show a skeleton until loaded. */
