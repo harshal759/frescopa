@@ -1075,6 +1075,11 @@ footer .footer[data-block-status="loaded"] {
   min-height: 0;
 }
 
+.binji-home-signin[data-block-status="initialized"],
+.binji-home-signin[data-block-status="loading"] {
+  visibility: hidden;
+}
+
 h1,
 h2,
 h3,
