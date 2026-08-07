@@ -45,6 +45,10 @@ body.binji-theme:has(.user-profile-host) footer .footer .section:not(.default) u
   display: flex;
 }
 
+body.binji-theme:has(.user-profile-btn) main .section:has(.sign-in-wrapper), body.binji-theme:has(.user-profile-btn) main .section.sign-in-wrapper {
+  display: none !important;
+}
+
 body.binji-theme main .section.video-container, body.binji-theme main .section.video-container .video-wrapper {
   max-width: unset;
 }
@@ -1429,10 +1433,6 @@ body.binji-theme main .section.binji-promo-banner--reverse .columns.block .butto
 
 body.binji-theme main .section.video-container .video-wrapper {
   padding: 0;
-}
-
-body.binji-theme:has(.user-profile-btn) main .section:has(.sign-in-wrapper), body.binji-theme:has(.user-profile-btn) main .section.sign-in-wrapper {
-  display: none !important;
 }
 
 /* =============================================================================
