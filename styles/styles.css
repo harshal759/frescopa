@@ -433,6 +433,16 @@ footer .footer[data-block-status="loaded"] {
   visibility: visible;
 }
 
+/* Hide the entire section until all blocks inside it have finished loading. */
+main .section[data-section-status="initialized"]:has(.block),
+main .section[data-section-status="loading"]:has(.block) {
+  visibility: hidden;
+}
+
+main .section[data-section-status="loaded"] {
+  visibility: visible;
+}
+
 /* Fully collapse content-only sections while loading: no background, padding or blank scroll. */
 main .section[data-section-status="initialized"]:not(:has(.block)),
 main .section[data-section-status="loading"]:not(:has(.block)) {
