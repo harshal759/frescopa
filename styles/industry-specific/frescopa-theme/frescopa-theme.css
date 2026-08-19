@@ -1096,8 +1096,13 @@ body.frescopa-theme header nav .nav-tools .sign-in-btn::after {
   }
 
   body.frescopa-theme .cards > ul > li.cards-card--alignment-left .cards-card-body {
-    padding: 0;
+    padding: 8px;
     margin: 0;
+    text-align: center;
+  }
+
+  body.frescopa-theme header nav .nav-tools {
+    gap: 8px;
   }
 
   body.frescopa-theme header nav .nav-tools .sign-in-btn {
@@ -1172,23 +1177,42 @@ body.frescopa-theme header nav .nav-tools .sign-in-btn::after {
     max-width: 100% !important;
   }
 
-  body.frescopa-theme main .section.section-horizontal-widths.section-has-bg {
-    flex-direction: column !important;
-  }
-
-  body.frescopa-theme main .section.section-horizontal-widths.section-has-bg > div {
-    max-width: unset !important;
-  }
-
+  body.frescopa-theme main .section.section-horizontal-widths.section-has-bg,
+  body.frescopa-theme .section.section-horizontal-widths.join-us-container,
   body.frescopa-theme .section.sign-in-container {
     flex-direction: column !important;
   }
 
+  body.frescopa-theme main .section.section-horizontal-widths.section-has-bg > div,
+  body.frescopa-theme .section.section-horizontal-widths.join-us-container > div,
   body.frescopa-theme .section.sign-in-container > div {
     max-width: 100% !important;
   }
 
   body.frescopa-theme .section.sign-in-container > div .sign-in {
     margin: 30px 0 !important;
+  }
+
+  body.frescopa-theme .cards-container .cards-wrapper .cards > ul > li .cards-card-body h1 {
+    margin-bottom: 16px;
+  }
+
+  body.frescopa-theme .hero.image-background-text-left div:nth-child(2) {
+    margin-left: 0;
+  }
+
+  body.frescopa-theme main .create-account .frescopa-machine-field select {
+    padding-right: 40px;
+  }
+
+  body.frescopa-theme .checkout-shipping-actions-panel button,
+  body.frescopa-theme main .create-account .submit-wrapper button {
+    text-align: center;
+  }
+
+  body.frescopa-theme main .join-us {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
   }
 }
